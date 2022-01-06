@@ -1,3 +1,4 @@
+// 내가 한 풀이
 function solution(arr1, arr2) {
   let answer = [[]];
   answer = arr1;
@@ -8,4 +9,9 @@ function solution(arr1, arr2) {
     }
   }
   return answer;
+}
+
+// 다른 사람 풀이
+function sumMatrix(A,B){
+  return A.map((a,i) => a.map((b, j) => b + B[i][j]));
 }
